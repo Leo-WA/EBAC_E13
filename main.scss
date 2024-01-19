@@ -1,0 +1,26 @@
+$body-bg: #f8f9fa;
+$text-color: #212529;
+
+body {
+  background-color: $body-bg;
+  color: $text-color;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(blue, 10%);
+  }
+}
